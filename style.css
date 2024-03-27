@@ -109,6 +109,7 @@ a {
   border-radius: 0.75rem;
   margin: 0.5rem 0 1.75rem 0;
   padding: 0.75rem 1rem;
+  /* overflow: scroll; */
 }
 
 .box-p1 {
@@ -131,4 +132,42 @@ a {
   margin-top: 1.5rem;
   height: 2rem;
   width: fit-content;
+}
+
+.dark-badge {
+  background-color: #0000;
+  color: #fff;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons {
+  margin: 0.75rem;
+}
+
+.sticky-nav-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sticky-nav-options button {
+  margin-right: 1rem;
+}
+
+.nav-item {
+  margin-right: 1 rem;
+}
+
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
 }
